@@ -5,7 +5,7 @@ import os
 # IMPORTANT: Set your Google API Key as an environment variable
 # or replace "YOUR_API_KEY" with your actual key.
 # It is highly recommended to use environment variables for security.
-# os.environ['GOOGLE_API_KEY'] = "AIzaSyAYYBww-K7K7BmiEVhOEBYPcurSodbN9Fk"
+
 
 genai.configure(api_key=os.environ.get("GOOGLE_API_KEY"))
 model = genai.GenerativeModel('gemini-1.5-flash')
